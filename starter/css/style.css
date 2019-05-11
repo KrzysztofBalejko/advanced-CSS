@@ -19,5 +19,20 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777;
+    /* adding padding will create a frame around body */
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(126, 213, 111, 0.804),
+        rgba(40, 180, 133, 0.804)),
+    url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    /* clip-path allows to cut shapes out of images */
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100% )
 }
 
