@@ -11,14 +11,16 @@ dar blue: #5368F5
 
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -29,6 +31,7 @@ body {
     color: #777;
     /* adding padding will create a frame around body */
     padding: 3rem;
+    box-sizing: border-box;
 }
 
 .header {
