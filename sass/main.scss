@@ -1,6 +1,8 @@
 $color-primary: #B6BDEE;
 $color-primary-light: #96A3F6;
 $color-primary-dark: #5368F5;
+$color-white: #fff;
+$color-grey: #777;
 
 *,
 *::after,
@@ -19,7 +21,7 @@ body {
     font-weight: 400;
     /* font-size: 16px; */
     line-height: 1.7;
-    color: #777;
+    color: $color-grey;
     /* adding padding will create a frame around body */
     padding: 3rem;
     box-sizing: border-box;
@@ -63,7 +65,7 @@ body {
 }
 
 .heading-primary {
-    color: #fff;
+    color: $color-white;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
@@ -150,8 +152,8 @@ body {
 }
 
 .btn--white {
-    background-color: #fff;
-    color: #777;
+    background-color: $color-white;
+    color: $color-grey;
 }
 
 .btn::after {
@@ -168,7 +170,7 @@ body {
 }
 
 .btn--white::after {
-    background-color: #fff;
+    background-color: $color-white;
 }
 
 .btn:hover::after {
