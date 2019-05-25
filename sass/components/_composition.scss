@@ -6,10 +6,13 @@
         box-shadow: 0 1.5rem 4rem rbq($color-black, .4);
         border-radius: 2px;
         position: absolute;
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 2rem;
 
         &--p1 {
             left: 0 ;
-            top: -2rem;
+            top: 0rem;
         }
 
         &--p2 {
@@ -21,5 +24,17 @@
             left: 20%;
             top: 10rem;
         }
+
+        &:hover {
+            outline: 1.5rem solid $color-primary;
+            transform: scale(1.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+            z-index: 20;
+        }
     }
+    // once hovered on composition select __photo that is not hovered and transform its scale
+    &:hover &__photo:not(:hover) {
+        transform: scale(.9);
+    }
+
 }
