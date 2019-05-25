@@ -12,4 +12,13 @@
         rgba($color-primary-dark, .61)),
     url(../img/nat-4.jpg);
     background-size: cover;
+
+    transform: skewY(-7deg);
+
+    // this sorts out boxes to be straight
+    // calls the child element .row
+    & > * {
+        transform: skewY(7deg);  
+    }
+
 }
