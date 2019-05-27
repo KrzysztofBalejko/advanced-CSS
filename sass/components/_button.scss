@@ -7,7 +7,7 @@
         display: inline-block;
         border-radius: 10rem;
         /* animating button */
-        transition: all .7s;
+        transition: all .3s;
         box-shadow: 0 0.5rem 0.1rem rgba($color-black, .2);
         position: relative;
         font-size: $default-font-size;
@@ -34,6 +34,15 @@
 
         &:after {
             background-color: $color-white;
+        }
+    }
+
+    &--green {
+        background-color: $color-forrest-light;
+        color: $color-white;
+
+        &:after {
+            background-color: $color-forrest-light;
         }
     }
 

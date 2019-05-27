@@ -110,6 +110,9 @@ body {
 .u-margin-bottom-large {
   margin-bottom: 8rem; }
 
+.u-margin-top-large {
+  margin-top: 8rem; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -209,7 +212,7 @@ body {
   display: inline-block;
   border-radius: 10rem;
   /* animating button */
-  transition: all .7s;
+  transition: all .3s;
   box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
   position: relative;
   font-size: 1.6rem; }
@@ -230,6 +233,12 @@ body {
   color: #777; }
   .btn--white:after {
     background-color: #fff; }
+
+.btn--green {
+  background-color: #44a08d;
+  color: #fff; }
+  .btn--green:after {
+    background-color: #44a08d; }
 
 .btn::after {
   content: "";
