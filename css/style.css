@@ -134,6 +134,8 @@ body {
         background-image: linear-gradient(to right bottom, #0b486b, #f56217); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #44a08d, #093637); }
+      .card__side--back-3 {
+        background-image: linear-gradient(to right bottom, #4568DC, #B06AB3); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
@@ -149,7 +151,7 @@ body {
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #44a08d, #093637), url(../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #4568DC, #B06AB3), url(../img/nat-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -168,6 +170,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(11, 72, 107, 0.85), rgba(245, 98, 23, 0.85)); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(68, 160, 141, 0.85), rgba(9, 54, 55, 0.85)); }
+    .card__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(69, 104, 220, 0.85), rgba(176, 106, 179, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
