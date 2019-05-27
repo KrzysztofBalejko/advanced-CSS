@@ -27,6 +27,11 @@
             &-1 {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
+
+            &-2 {
+                background-image: linear-gradient(to right bottom, $color-forrest-light, $color-forrest-dark);
+            }
+
             
         }
 
@@ -55,7 +60,8 @@
         }
 
         &--2 {
-            background-image: url(../img/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-forrest-light, $color-forrest-dark),
+            url(../img/nat-6.jpg);
         }
 
         &--3 {
@@ -87,6 +93,13 @@
             rgba($color-secondary-light, .85),
             rgba($color-secondary-dark, .85));
         }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-forrest-light, .85),
+            rgba($color-forrest-dark, .85));
+        }
+
     }
 
     &__details {
